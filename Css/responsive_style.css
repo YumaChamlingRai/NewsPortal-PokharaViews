@@ -1,0 +1,32 @@
+@media (max-width: 991px) {
+    .navbar-toggler-icon-green {
+      filter: invert(79%) sepia(39%) saturate(6488%) hue-rotate(102deg) brightness(93%) contrast(83%);
+    }
+  }
+
+   @media (max-width: 1000px) {
+      /* Hide the text on small screens */
+      .custom-button span {
+        display: none;
+      }
+    }
+  
+
+    @media (max-width: 767px) {
+      .ad-container1 {
+          max-height: 200px; /* Set a specific height for small screens */
+      }
+  }
+
+  @media (max-width: 767px) {
+    .ad-container3 {
+        max-height: 50px; /* Set a specific height for small screens */
+    }
+}
+
+@media (max-width: 767px) {
+  .picturenews_main{
+      max-height: 250px; /* Set a specific height for small screens */
+  }
+}
+

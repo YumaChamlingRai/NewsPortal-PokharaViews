@@ -1,0 +1,506 @@
+body{
+    font-family: 'Noto Serif Devanagari', serif;
+    font-weight: 300;
+	  line-height:20px;
+    margin: 0 auto; /* Center the body horizontally */
+    cursor: pointer;
+    font-size: 18px;
+    text-align: justify;
+}
+
+ /*Zoom in effect for the image*/
+ .zoom-in {
+    overflow: hidden;
+    padding: 0;
+    background-color: #D81D1D;
+  }
+  
+  .zoom-in img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-in:hover img {
+    transform: scale(1.2); 
+  }
+
+
+  .icon_custom{
+    font-size: 20px;
+    color: #2E3092;
+ }
+
+ .icon_custom1{
+    font-size: 20px;
+    color: #D81D1D;
+ }
+
+.logo_style{
+    max-height:60px; 
+    max-width: 100%; 
+    object-fit: contain;
+}
+
+.div1{
+  background-color: #D81D1D;
+}
+.div2{
+  background-color: #2E3092;
+}
+
+marquee{
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.horizontal-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+  background-color: #2E3092;
+}
+.navbar-nav li a{
+  margin-right:30px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  }
+  
+  .navbar-nav li i{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Customize dropdown menu */
+  .dropdown-menu {
+    background-color:  #ffffff; /* Set the background color */
+    border-radius: 0;
+  }
+
+  /* Customize dropdown items */
+  .dropdown-menu .nav-item a {
+    color: #000000; /* Set text color */
+  }
+
+  .dropdown-menu .nav-item a:hover {
+    font-size: 16px;
+    color: #2E3092;
+  }
+
+
+.custom-button {
+  background-color: #D81D1D;
+}
+
+.custom-button:hover{
+  background-color: #ff0000;
+}
+
+.custom-button .d-flex {
+  align-items: center;
+  height: 100%;
+  justify-content: center; /* Center horizontally */
+}
+
+.custom-button i {
+  color: white;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.custom-button span {
+  margin-left: 10px; /* Adjust the margin-left as needed */
+  color: white;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.custom-button span:hover{
+  font-size: 22px;
+}
+
+
+.custom-toggler {
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+
+.ad-container1{
+  height: 550px;
+  width: 100%;
+  margin-top: 20px;
+  object-fit:fill;
+}
+
+.login_button{
+  background-color: #2E3092;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.login_button:hover{
+background-color: #D81D1D;
+color: #ffffff;
+
+}
+
+.custom-shadow {
+  background-color: #fff; /* Set background color to white */
+  padding: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Add darker inner shadow */
+}
+/*Css for the main contents*/
+.title_div{
+  background-color: #D81D1D;
+  letter-spacing: 2px;
+}
+
+.title_div:hover{
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.title_div h2:hover{
+  color: #D81D1D;
+
+}
+
+
+.main_news_content{
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 15px;
+  overflow: auto;
+  max-height: 200px;
+  line-height: 1.5;
+  text-align: justify
+}
+
+.main_image{
+  overflow: hidden;
+  width: 100%;
+  height:255px;
+}
+
+
+/*CSS for Image Text Priview*/
+.news-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  }
+
+.flashnews_image {
+  width: 100%;
+  height: 195px;
+  display: block;
+  transition: opacity 0.5s ease;
+}
+.news-container img{
+  
+    box-shadow: 2px 2px 5px 3px rgba(89, 88, 88, 0.5);
+  
+}
+
+.news-container h5{
+  color: #2E3092;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.news-container:hover .flashnews_image {
+  opacity: 0.7;
+}
+
+.news-container:hover .overlay-text {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*Enf of CSS for Image Text Priview*/
+
+.latest_news{
+  color:#ffffff;
+  font-weight:700;
+  font-size: 20px;
+  background-color:#D81D1D;
+  text-align: center;
+}
+
+.lastest_news_hover{
+  font-size: 16px;
+}
+.lastest_news_hover:hover {
+  color:  #2E3092;
+  font-weight: bold;
+}
+
+.ad_container2{
+  width: 100%;
+  height: 230px; /* Set the desired fixed height */
+  object-fit: cover;
+}
+
+.latest_update{
+  color: #2E3092;
+  font-size: 20px;
+  font-weight:700;
+}
+
+.latest_update span:hover{
+  color: #D81D1D;
+}
+
+.latest_update p{
+  font-size: 15px;
+  color: black;
+  font-weight: 100;
+}
+.latest_update .icon_custom{
+  font-size: 15px;
+}
+
+.ad-container3{
+  height: 150px;
+  width: 100%;
+  margin-top:0px;
+  object-fit:fill;
+}
+
+.news_image{
+  height: 200px;
+  width: 100%;
+  }
+
+.news_share_icon:hover{
+  font-size: 15px;
+}
+
+
+/*css for news letter*/
+.sub_button{
+  background-color: #2E3092;
+  color: #ffffff;
+}
+
+.sub_button:hover{
+  background-color: #D81D1D;
+  color: #ffffff;
+}
+
+.card-title{
+  color: #2E3092;
+}
+
+/*news letter css ends*/
+
+.ad-container4 img{
+  height: 350px;
+}
+
+/* Custom CSS for the underline */
+.custom-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px; /* Adjust thickness as needed */
+  background-color:#D81D1D;/* Customize the color */
+  bottom: -10px; /* Adjust the distance from the text */
+}
+
+
+.subnews_image{
+  height: 230px;
+  width:100%;
+}
+
+.subnews_title{
+  color: #2E3092;
+}
+
+/* styles.css */
+
+.subnavbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: evenly;
+}
+
+.subnavbar .navbar-nav .nav-item {
+  text-align: center;
+  padding-right: 65px; /* Adjust the value as needed */
+}
+
+.subnavbar .navbar-nav .nav-link {
+  color: black;
+  font-size: 20px;
+
+}
+
+.subnavbar .navbar-nav .nav-link:hover{
+  color: #2E3092;
+}
+
+
+.custom-image{
+  height: 615px;
+  width: 100%;
+}
+
+.ad_Pokhara{
+  height: 595px;
+}
+
+.bottom-div {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.devanagari-small {
+  color: #2E3092;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+}
+
+.picturenews{
+  width:100%; 
+  height:250px;
+}
+
+.picturenews_main{
+  height: 450px;
+}
+
+.picturenews_main_title:hover{
+  color: #2E3092;
+}
+
+/* video news css*/
+.video-news-section {
+  display: flex;
+  overflow:hidden;
+  gap: 15px;
+  }
+
+.video-news-card {
+  position: relative;
+  width: 100%;
+ 
+}
+  
+.video-news-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  
+}
+
+.overlay_video {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 70%;
+  height: 35%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.video-title {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.video-title:hover{
+  color: #2E3092;
+}
+
+
+/*footer section css*/
+.footer-section {
+  background-color: #2E3092;
+}
+.footer-section hr {
+  margin: 0;
+}
+.footer-logo img {
+  height: 60px;
+  width: 250px;
+}
+.red-background {
+  background-color: #D81D1D;
+}
+
+
+/* CSS for contact section */
+.contact-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  margin: auto;
+  width: 60%;
+  margin-top: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* CSS for form input fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  margin-bottom: 20px;
+}
+
+.contact_button, .blog_button{
+  background-color: #2E3092;
+  color: #ffffff;
+}
+
+.contact_button, .blog_button:hover{
+  background-color: #D81D1D;
+  color: #ffffff;
+}
+
+/*blog page css*/
+.rounded-circle.fixed-image {
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover;
+  align-items: center;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.list-group-item:hover{
+  background-color: #2E3092;
+  color: #ffffff;
+}
